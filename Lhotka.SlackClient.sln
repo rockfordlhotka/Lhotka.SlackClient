@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{A238B3AB-684D-417E-B7C0-D592DCD8BFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lhotka.SlackClient", "Lhotka.SlackClient\Lhotka.SlackClient.csproj", "{DB789C61-7A68-475C-B04D-C08B588B8D2B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A238B3AB-684D-417E-B7C0-D592DCD8BFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A238B3AB-684D-417E-B7C0-D592DCD8BFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A238B3AB-684D-417E-B7C0-D592DCD8BFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A238B3AB-684D-417E-B7C0-D592DCD8BFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB789C61-7A68-475C-B04D-C08B588B8D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB789C61-7A68-475C-B04D-C08B588B8D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB789C61-7A68-475C-B04D-C08B588B8D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB789C61-7A68-475C-B04D-C08B588B8D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
